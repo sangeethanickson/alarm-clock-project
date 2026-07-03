@@ -53,6 +53,7 @@ The exercise intentionally did not provide a detailed specification. Therefore, 
 
 # Architecture
 
+```text
 Main Thread
     │
     ├── CLI Menu
@@ -68,10 +69,13 @@ Background Thread
             ├── Checks alarms every second
             ├── Prints alarm message
             └── Sends desktop notification
+```
 
+---
 
 # Project Structure
 
+```text
 alarm-clock/
 │
 ├── main.py
@@ -83,6 +87,7 @@ alarm-clock/
 ├── requirements.txt
 ├── README.md
 └── .gitignore
+```
 
 ---
 
@@ -154,37 +159,48 @@ This keeps the data model simple and avoids duplicate alarms.
 
 ## Clone the repository
 
+```bash
 git clone https://github.com/sangeethanickson/alarm-clock-project.git
 cd alarm-clock
+```
 
 ## Create virtual environment
 
 ### Windows
 
+```bash
 python -m venv venv
 venv\Scripts\activate
+```
 
 ### Linux / Mac
 
+```bash
 python3 -m venv venv
 source venv/bin/activate
+```
 
 ---
 
 ## Install dependencies
 
+```bash
 pip install -r requirements.txt
+```
 
 ---
 
 ## Start the application
 
+```bash
 python main.py
+```
 
 ---
 
 # Example Usage
 
+```text
 ========== Alarm Clock ==========
 1. Create Alarm
 2. View Alarms
@@ -192,17 +208,22 @@ python main.py
 4. Exit
 5. Snooze Active Alarm
 =================================
+```
 
 ---
 
 # Example Alarm
 
+```text
 Enter alarm time (HH:MM): 09:30
 Enter label (optional): Interview
+```
 
 When the alarm triggers:
 
+```text
 🔔 ALARM! 09:30 - Interview
+```
 
 A desktop notification is also displayed.
 
