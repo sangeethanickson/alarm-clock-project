@@ -1,0 +1,37 @@
+[
+    {
+        "id": "22c0d0a2-8791-4361-8964-007c913c3e0c",
+        "time": "23:05",
+        "label": "Testing",
+        "active": true,
+        "snooze_count": 0
+    },
+    {
+        "id": "87487a32-9fe6-441e-8d63-41ff4a7129f8",
+        "time": "23:21",
+        "label": "Testing with background notification",
+        "active": true,
+        "snooze_count": 0
+    },
+    {
+        "id": "4fe1a843-3de4-49e2-8adf-8290e2a356cc",
+        "time": "23:30",
+        "label": "Testing with snooze",
+        "active": true,
+        "snooze_count": 0
+    },
+    {
+        "id": "17d01ec3-7f9e-4f5a-b029-e9a9227def9e",
+        "time": "23:33",
+        "label": "Tesiting",
+        "active": true,
+        "snooze_count": 0
+    },
+    {
+        "id": "1f1d5d14-50f2-4353-9702-512450fd7f2d",
+        "time": "23:40",
+        "label": "Test Alarm",
+        "active": true,
+        "snooze_count": 0
+    }
+]
